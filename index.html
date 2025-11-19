@@ -2,10 +2,189 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>Baitik Orospekov – Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+
+  <!-- HEADER / NAVBAR -->
+  <header>
+    <div class="container nav">
+      <div class="logo">My Portfolio</div>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#academic">Academics</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="overlay"></div>
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1>Hi, I'm <span class="yellow">Baitik Orospekov</span></h1>
+        <p>Beginner developer, student, and someone who loves learning by building.</p>
+        <p>I enjoy working with web technologies, solving problems, and creating cool projects.</p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View My Projects</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-photo">
+        <img src="Photo.jpg" alt="My Photo">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT ME -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-subtitle">A quick introduction</p>
+
+      <div class="content">
+        <p>Hello! My name is <strong>Baitik</strong>. I am currently learning web development and exploring how the web works behind the scenes.</p>
+        <p>I started coding in 2023 and since then I have been experimenting with HTML, CSS, JavaScript and other technologies.</p>
+        <p>My goal is to become a strong developer who can build useful and beautiful applications.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+      <p class="section-subtitle">Some things I’ve built or experimented with</p>
+
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <div class="project-tags">HTML • CSS • Responsive Design</div>
+          <p>This website you are looking at right now — built without Bootstrap, using clean HTML + custom CSS.</p>
+          <div class="project-link">
+            <a href="https://manzebu1.github.io/TASK_3/" target="_blank">View on GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Simple Calculator</h3>
+          <div class="project-tags">HTML • CSS • JavaScript</div>
+          <p>A basic calculator that performs addition, subtraction, multiplication, and division using pure JavaScript.</p>
+          <div class="project-link">
+            <a href="https://manzebu1.github.io/Calculator/" target="_blank">View on GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Etch-a-Sketch</h3>
+          <div class="project-tags">JavaScript • DOM Manipulation</div>
+          <p>An interactive grid where users draw by hovering. This project improved my DOM manipulation and event handling skills.</p>
+          <div class="project-link">
+            <a href="https://github.com/Manzebu1" target="_blank">View on GitHub →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ACADEMIC STORY -->
+  <section id="academic">
+    <div class="container">
+      <h2 class="section-title">Academic Story</h2>
+      <p class="section-subtitle">My journey through education</p>
+
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <h3>2018 - 2023</h3>
+          <span>Talas Manas Ata High School</span>
+          <p>
+            I studied in an environment that encouraged discipline, curiosity, and growth.
+            My school helped me develop logical thinking, teamwork skills, and interest in technology.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>2023 - Present</h3>
+          <span>University of Debrecen – Computer Science BSc</span>
+          <p>
+            Currently pursuing my bachelor's degree in Computer Science.  
+            Here I am learning programming, algorithms, web development, and problem-solving at a deeper level.
+            My university has made me more confident in my journey as a future developer.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- HOBBIES -->
+  <section id="hobbies">
+    <div class="container">
+      <h2 class="section-title">My Hobbies</h2>
+      <p class="section-subtitle">What I enjoy doing in my free time</p>
+
+      <div class="hobbies-grid">
+
+        <div class="hobby-card">
+          <div class="hobby-emoji">⚽</div>
+          <h3>Football</h3>
+          <p>I enjoy playing and watching football. It helps me relax and stay active.</p>
+        </div>
+
+        <div class="hobby-card">
+          <div class="hobby-emoji">♟️</div>
+          <h3>Chess</h3>
+          <p>I love strategic thinking and improving through practice.</p>
+        </div>
+
+        <div class="hobby-card">
+          <div class="hobby-emoji">💪</div>
+          <h3>Calisthenics</h3>
+          <p>I recently started calisthenics. I enjoy the challenge and the feeling of getting stronger using only bodyweight.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <p class="section-subtitle">Feel free to reach out</p>
+
+      <div class="contact-grid">
+        <div class="contact-links">
+          <h3>Social Links</h3>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/baitik-orospekov-56bb99302" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/orospekov__/" target="_blank">Instagram</a></li>
+            <li><a href="https://github.com/Manzebu1" target="_blank">GitHub</a></li>
+          </ul>
+
+          <p class="note">
+            You can contact me anytime through these platforms.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2025 Baitik Orospekov – All rights reserved.
+  </footer>
+
 </body>
 </html>
